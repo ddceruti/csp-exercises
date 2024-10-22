@@ -78,7 +78,7 @@ Alternatively, you can download the repository as a .zip and extract the files.
 3. Create a new environment `conda create -n csp python=3.11`
 4. Activate the environment `conda activate csp`
 5. Install all required packages `pip install -r requirements.txt` (can take a while to finalize)
-6. check installed packages with command 'conda list' (especially check for 'notebook')
+6. check installed packages with command `conda list` (especially check for 'notebook')
 
 ## Getting Started
 
