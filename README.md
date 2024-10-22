@@ -1,4 +1,4 @@
-# Interactive Concentrating Solar Thermal Power Plants
+# Interactive Exercises on Concentrating Solar Thermal Power Plants
 
 ## Description
 
