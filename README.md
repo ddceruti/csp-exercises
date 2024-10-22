@@ -2,14 +2,14 @@
 
 ## Description
 
-This repository contains three exercises for the lecture "Concentrating Solar
+This repository contains five exercises for the lecture "Concentrating Solar
 Power Plants" at TU Munich to learn about CSP interactively. The exercises are
 interactive and will be corrected in the exercise sessions.
 
 ### Exercise 1: Weather Data
 
 Getting started, dealing with weather data and the obtaining the renewable
-energy resources for CSP.
+energy potentials for CSP.
 
 To download weather locations globally:
 
@@ -18,7 +18,7 @@ To download weather locations globally:
 
 ### Exercise 2: The Global CSP Industry
 
-Small data science exercise to analyse the global CSP Overview of CSP plants
+Data science exercise to analyse the global CSP Overview of CSP plants
 thanks to the [CSP.guru](https://csp.guru/) dataset. For the original paper
 and analysis please go to the references:
 
@@ -48,7 +48,7 @@ Simulation of a [supercritical CO2 power cycle](https://sco2symposium.com/papers
 
 ### Prerequisites
 
-- [Git](https://git-scm.com/downloads)
+- [Git](https://git-scm.com/downloads): Optional but recommended.
 - [Miniconda3](https://docs.anaconda.com/free/miniconda/index.html)
 - Choose an option for GUI of Python & Jupyter (suggestions):
   - [Visual Studio Code](https://code.visualstudio.com/) (recommended)
@@ -56,9 +56,10 @@ Simulation of a [supercritical CO2 power cycle](https://sco2symposium.com/papers
   - [pycharm](https://www.jetbrains.com/pycharm/)
   - or any other GUI for Python
 - Install the Jupiter & Python exctension for your GUI
-- Pandas is used for reading & editing data sets <https://pandas.pydata.org/docs/getting_started/index.html#getting-started>
 
-### Clone Repository (Git CMD)
+### Download the Files
+
+#### Option A: Clone Repository (Git CMD)
 
 1. Open Git CMP window
 2. Open any folder (in explorer) where the repository should be store
@@ -66,7 +67,11 @@ Simulation of a [supercritical CO2 power cycle](https://sco2symposium.com/papers
 4. Clone downloaded repository with git: git clone 'url'
 5. exit Git CMD
 
-### Install required packages
+#### Option B: Download .zip
+
+Alternatively, you can download the repository as a .zip and extract the files.
+
+### Install Required Packages
 
 1. Open the Anaconda Powershell Prompt
 2. Navigate to the cloned repository and copy path of folder in explorer: cd  'c:/path/to/folder/csp_exercises'
@@ -77,6 +82,12 @@ Simulation of a [supercritical CO2 power cycle](https://sco2symposium.com/papers
 
 ## Getting Started
 
+The best way to solve the exercises is to open the notebook and try to run all cells.
+Then the exercises can be done within each "empty" jupyter notebook file, where the questions can be answered
+directly in the empty cells below.
+
+Here is the workflow:
+
 0. Install a Text editor of your choice (VS Code,Spyder, ect.)
 1. Open the Anaconda Powershell Prompt
 2. Activate environment `conda activate csp`: always switch to this environment, otherwise you can damage the (base) path and you have to re-install all from scratch
@@ -84,7 +95,7 @@ Simulation of a [supercritical CO2 power cycle](https://sco2symposium.com/papers
 4. Navigate to file and run all cells: <https://saturncloud.io/blog/Jupyter-notebook-run-all-cells-a-comprehensive-guide/>
 5. Stop jupyter server to run press 'ctrl+c' two times
 
-## Introduction on key Packages
+## Documentation on Key Packages
 
 ### pandas
 
@@ -105,15 +116,16 @@ Simulation of a [supercritical CO2 power cycle](https://sco2symposium.com/papers
 
 <https://climate.onebuilding.org/papers/EnergyPlus_Weather_File_Format.pdf>
 
-The best way is to open all notebooks and try to run all cells. Then the exercises can be done within each jupyter notebook file.
-
 ### tespy
 
 <https://tespy.readthedocs.io/en/main/introduction.html>
 
 ## Authors
 
-Ammerer, Maximilian (TUM); Ceruti, Amedeo (TUM)
+In alphabetic order:
+
+- Ammerer, Maximilian (TUM)
+- Ceruti, Amedeo (TUM)
 
 ## Contribute
 
