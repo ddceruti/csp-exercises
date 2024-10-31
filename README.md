@@ -80,6 +80,10 @@ Alternatively, you can download the repository as a .zip and extract the files.
 5. Install all required packages `pip install -r requirements.txt` (can take a while to finalize)
 6. check installed packages with command `conda list` (especially check for 'notebook')
 
+If you have not installed git, you need to download and extract the epw
+package (link in the requirements.txt file), navigate to the folder with `cd folder/epw-master` and
+use the command `pip install .` between steps 4 and 5 to manually install the package. 
+
 ## Getting Started
 
 The best way to solve the exercises is to open the notebook and try to run all cells.
