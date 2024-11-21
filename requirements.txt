@@ -5,4 +5,5 @@ openpyxl
 tespy
 notebook
 scipy
+folium
 git+https://github.com/building-energy/epw.git
