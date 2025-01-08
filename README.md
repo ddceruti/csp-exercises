@@ -26,11 +26,9 @@ and analysis please go to the references:
 
 > Richard Thonig, & Johan Lilliestam. (2023). CSP.guru (Version 2023-07-01) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.1318151](https://doi.org/10.5281/zenodo.1318151)
 
-### Exercise 3: Simulation of a Steam Rankine Cycle
+### Exercise 3: Simulation of Rankine Cycles (Andasol II Power Plant)
 
-TESpy simulation of a basic [steam rankine cycle](https://github.com/oemof/tespy/blob/dev/tutorial/basics/rankine.py).
-
-### Exercise 4: Simulation of Andasol II Power Plant
+TESPy simulation of a basic [steam rankine cycle](https://github.com/oemof/tespy/blob/dev/tutorial/basics/rankine.py).
 
 TESpy simulation of the steam rankine cycle of the [Andasol II](https://solarpaces.nrel.gov/project/andasol-2)
 parabolic trough power plant with the conditions from this
@@ -38,7 +36,7 @@ parabolic trough power plant with the conditions from this
 
 > Al-Maliki WA, Alobaid F, Kez V, Epple B. Modelling and dynamic simulation of a parabolic trough power plant. Journal of process control. 2016 Mar 1;39:123-38. [https://doi.org/10.1016/j.jprocont.2016.01.002](https://doi.org/10.1016/j.jprocont.2016.01.002)
 
-### Exercise 5: Simulation of a Supercritical CO2 Power Cycle
+### Exercise 4: Simulation of a Supercritical CO2 Power Cycle
 
 Simulation of a [supercritical CO2 power cycle](https://sco2symposium.com/papers2018/cycles/052_Paper.pdf).
 
@@ -130,6 +128,9 @@ In alphabetic order:
 
 - Ammerer, Maximilian (TUM)
 - Ceruti, Amedeo (TUM)
+- Hussein, Hassan (TUM)
+- Jundi, Jihad (TUM)
+- Tataranni, Urbano (TUM)
 
 ## Contribute
 
