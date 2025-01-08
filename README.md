@@ -95,7 +95,7 @@ Here is the workflow:
 2. Activate environment `conda activate csp`: always switch to this environment, otherwise you can damage the (base) path and you have to re-install all from scratch
 3. Launch jupyter-notebook `jupyter notebook`: <https://docs.jupyter.org/en/latest/running.html>
 4. Navigate to file and run all cells: <https://saturncloud.io/blog/Jupyter-notebook-run-all-cells-a-comprehensive-guide/>
-5. Stop jupyter server to run press 'ctrl+c' two times
+5. To stop jupyter server press 'ctrl+c' two times in the miniconda3 command prompt
 
 ## Documentation on Key Packages
 
