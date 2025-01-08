@@ -6,4 +6,5 @@ tespy
 notebook
 scipy
 folium
+CoolProp
 git+https://github.com/building-energy/epw.git
