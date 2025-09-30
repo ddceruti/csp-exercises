@@ -46,41 +46,37 @@ Simulation of a [supercritical CO2 power cycle](https://sco2symposium.com/papers
 
 ### Prerequisites
 
-- [Git](https://git-scm.com/downloads): Optional but recommended.
+- [Git](https://git-scm.com/downloads): Optional.
 - [Miniconda3](https://docs.anaconda.com/free/miniconda/index.html)
 - Choose an option for GUI of Python & Jupyter (suggestions):
   - [Visual Studio Code](https://code.visualstudio.com/) (recommended)
   - [Spyder](https://www.spyder-ide.org/>)
   - [pycharm](https://www.jetbrains.com/pycharm/)
   - or any other GUI for Python
-- Install the Jupiter & Python exctension for your GUI
+- Install the Jupyter & Python extension for your GUI
 
 ### Download the Files
 
 #### Option A: Clone Repository (Git CMD)
 
-1. Open Git CMP window
-2. Open any folder (in explorer) where the repository should be store
-3. Navigate with the git command prompt to this folder: cd 'c:/path/to/folder'
-4. Clone downloaded repository with git: git clone 'url'
-5. exit Git CMD
+1. Open `Git Bash` or `Git GUI`
+2. Decide the folder where the files should be stored
+3. Navigate with the git command prompt to this folder: `cd 'c:/path/to/folder'`
+4. Clone downloaded repository with git: `git clone 'https://github.com/ddceruti/csp-exercises.git'`
+5. exit Git
 
 #### Option B: Download .zip
 
-Alternatively, you can download the repository as a .zip and extract the files.
+Alternatively, you can download the repository as a .zip from `https://github.com/ddceruti/csp-exercises.git` and extract the files.
 
 ### Install Required Packages
 
-1. Open the Anaconda Powershell Prompt
-2. Navigate to the cloned repository and copy path of folder in explorer: cd  'c:/path/to/folder/csp_exercises'
+1. Open the `Anaconda Powershell Prompt`
+2. Navigate to the cloned repository and access the csp folder in explorer: `cd 'c:/path/to/folder/csp_exercises'`
 3. Create a new environment `conda create -n csp python=3.11`
 4. Activate the environment `conda activate csp`
 5. Install all required packages `pip install -r requirements.txt` (can take a while to finalize)
 6. check installed packages with command `conda list` (especially check for 'notebook')
-
-If you have not installed git, you need to download and extract the epw
-package (link in the requirements.txt file), navigate to the folder with `cd folder/epw-master` and
-use the command `pip install .` between steps 4 and 5 to manually install the package. 
 
 ## Getting Started
 
@@ -88,9 +84,8 @@ The best way to solve the exercises is to open the notebook and try to run all c
 Then the exercises can be done within each "empty" jupyter notebook file, where the questions can be answered
 directly in the empty cells below.
 
-Here is the workflow:
+Here is an example workflow:
 
-0. Install a Text editor of your choice (VS Code,Spyder, ect.)
 1. Open the Anaconda Powershell Prompt
 2. Activate environment `conda activate csp`: always switch to this environment, otherwise you can damage the (base) path and you have to re-install all from scratch
 3. Launch jupyter-notebook `jupyter notebook`: <https://docs.jupyter.org/en/latest/running.html>
@@ -98,6 +93,10 @@ Here is the workflow:
 5. To stop jupyter server press 'ctrl+c' two times in the miniconda3 command prompt
 
 ## Documentation on Key Packages
+
+### Jupyter Notebook
+
+<https://docs.jupyter.org/en/latest/>
 
 ### pandas
 
