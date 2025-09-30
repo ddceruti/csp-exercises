@@ -11,7 +11,7 @@ interactive and will be corrected in the exercise sessions.
 Getting started, dealing with weather data and the obtaining the renewable
 energy potentials for CSP.
 
-To download weather locations globally:
+To download weather locations globally, for example:
 
 - Bayern: .epw <https://climate.onebuilding.org/WMO_Region_6_Europe/DEU_Germany/index.html#IDBY_Bayern->
 - Europe: .epw <https://climate.onebuilding.org/WMO_Region_6_Europe/default.html>
@@ -67,12 +67,12 @@ Simulation of a [supercritical CO2 power cycle](https://sco2symposium.com/papers
 
 #### Option B: Download .zip
 
-Alternatively, you can download the repository as a .zip from `https://github.com/ddceruti/csp-exercises.git` and extract the files.
+Alternatively, you can download the repository as a .zip from <https://github.com/ddceruti/csp-exercises> and extract the files.
 
 ### Install Required Packages
 
 1. Open the `Anaconda Powershell Prompt`
-2. Navigate to the cloned repository and access the csp folder in explorer: `cd 'c:/path/to/folder/csp_exercises'`
+2. Navigate to the cloned repository and access the csp folder in explorer: `cd 'c:/path/to/folder/csp-exercises'`
 3. Create a new environment `conda create -n csp python=3.11`
 4. Activate the environment `conda activate csp`
 5. Install all required packages `pip install -r requirements.txt` (can take a while to finalize)
@@ -80,9 +80,10 @@ Alternatively, you can download the repository as a .zip from `https://github.co
 
 ## Getting Started
 
-The best way to solve the exercises is to open the notebook and try to run all cells.
+The best way to solve the exercises is to open an 'empty' notebook and try to run all cells.
 Then the exercises can be done within each "empty" jupyter notebook file, where the questions can be answered
 directly in the empty cells below.
+A 'solution' version of the exercise is also uploaded - the students are advised to try first on their own in the 'empty' version.
 
 Here is an example workflow:
 
@@ -100,10 +101,10 @@ Here is an example workflow:
 
 ### pandas
 
-<https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html#user-guide>
-<https://pandas.pydata.org/docs/user_guide/10min.html#min>
-<https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf>
-<https://pandas.pydata.org/docs/getting_started/tutorials.html#communitytutorials>
+- <https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html#user-guide>
+- <https://pandas.pydata.org/docs/user_guide/10min.html#min>
+- <https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf>
+- <https://pandas.pydata.org/docs/getting_started/tutorials.html#communitytutorials>
 
 ### matplotlib
 
