@@ -2,13 +2,14 @@
 
 ## Description
 
-This repository contains five exercises for the lecture "Concentrating Solar
+This repository contains four exercises for the lecture "Concentrating Solar
 Power Plants" at TU Munich to learn about CSP interactively. The exercises are
-interactive and will be corrected in the exercise sessions.
+meant to be solved individually and will be corrected in the classroom during
+exercise sessions.
 
 ### Exercise 1: Weather Data
 
-Getting started, dealing with weather data and the obtaining the renewable
+Getting started, dealing with weather data and calculating renewable
 energy potentials for CSP.
 
 To download weather locations globally, for example:
@@ -68,15 +69,16 @@ Simulation of a [supercritical CO2 power cycle](https://sco2symposium.com/papers
 #### Option B: Download .zip
 
 Alternatively, you can download the repository as a .zip from <https://github.com/ddceruti/csp-exercises> and extract the files.
+Then, continue from step 3. of Option A.
 
 ### Install Required Packages
 
 1. Open the `Anaconda Powershell Prompt`
 2. Navigate to the cloned repository and access the csp folder in explorer: `cd 'c:/path/to/folder/csp-exercises'`
-3. Create a new environment `conda create -n csp python=3.11`
-4. Activate the environment `conda activate csp`
+3. Create a new environment, name it `csp` and install the latest Python version  `conda create -n csp python=3.11`
+4. Activate the environment `conda activate csp` so that all packages and changes are contained within it.
 5. Install all required packages `pip install -r requirements.txt` (can take a while to finalize)
-6. check installed packages with command `conda list` (especially check for 'notebook')
+6. Check installed packages with command `conda list` (especially check for 'notebook')
 
 ## Getting Started
 
